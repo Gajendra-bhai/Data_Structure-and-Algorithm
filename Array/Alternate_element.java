@@ -13,9 +13,9 @@ public class Alternate_element {
   }
   //Print Alternate Element
 
-  for(int i = 0; i < arr_size; i++)
+  for(int i = 0; i < arr_size; i+=2)
   {
-    System.out.println(array[i] + 1);
+    System.out.println(array[i]);
   }
         
     }
